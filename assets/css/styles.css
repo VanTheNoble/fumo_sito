@@ -1,0 +1,157 @@
+.magazine{
+    text-align:right;
+    text-decoration: underline;
+    font-size: 40px;
+    font-family: 'Courier New', Courier, monospace;
+}
+.minwrap{
+    width: 50%;
+    max-width: 50% !important;
+}
+
+.logoFumo {
+    text-transform: lowercase; }
+.logoFumo a {
+    background: url("../imgs/LOGO-nero.png") no-repeat 0 5px;
+    background-size: 10rem;
+    
+    float: left;
+    height: 4.8rem;
+    text-indent: -4000px;
+    /*If you remove text-indent and add: */
+    /*padding-left: 6rem;*/
+    vertical-align: middle;
+    width: 10rem; 
+}
+nav[role='navigation'] li.active a {
+    background-color: #555;
+    color: #fff; }
+  
+/*nav[role='navigation'] li a {
+    background-color: rgba(50, 50, 50, 0.9);
+    color: #fff; 
+}
+nav[role='navigation'] li a:hover {
+    background-color: rgba(50, 50, 50, 0.7); 
+}*/
+
+nav[role='navigation'] li a {
+    background-color: #fff;
+    color: #000;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+}
+
+.ramoLeft{
+    background: url("../imgs/ramo.png") no-repeat 0 0;
+    background-size: contain;
+    -moz-transform: scaleX(-1);
+    -o-transform: scaleX(-1);
+    -webkit-transform: scaleX(-1);
+    transform: scaleX(-1);
+    filter: FlipH;
+    -ms-filter: "FlipH";
+    position:absolute;
+    bottom: 10%;
+    left: 3%;
+    height: 50%;
+    width: 20%;
+    background-position-x: left;
+    
+}
+
+.ramoRight{
+    background: url("../imgs/ramo.png") no-repeat 0 0;
+    background-size: contain;
+    position:absolute;
+    bottom: 0px;
+    right: 3%;
+    height: 50%;
+    width: 20%;
+    background-position-x: right;
+}
+
+.testo{
+    font-family: 'Courier New', Courier, monospace;
+    text-align: justify;
+    font-size: 14px;
+    line-height: 15px;
+    margin-top: -30%;
+}
+.sottotesto{
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 34px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+.vl {
+    border-left: 2px solid black;
+    height: 125px;
+    margin: 0 auto;
+    max-width: 3px;
+  }
+
+  .vl-r{
+    border-right: 2px solid black;
+    height: 125px;
+    max-width: 3px;
+  }
+  .containerFlex{
+    display: flex;
+    flex-wrap: wrap;
+  }
+  .column {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+  }
+  .rowspan-2{
+    flex: 2;
+  }
+  .item{
+    flex: 1; /* explanation below */
+    
+  }
+  .item p{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 14px;
+    line-height: 15px;
+    margin: 0;
+    
+  }
+  .item p.margined{
+    margin:18px;
+  }
+  .fix{
+    
+    width:100%;
+    
+    display:inline-block;
+  }
+  .item img{
+    max-width: 100%;
+  }
+
+  
+  p {
+    font-size: 13px;
+    line-height: 13px !important;
+  }
+
+  .line-before::before{
+    content:'\00a0\00a0\00a0\00a0';
+    text-decoration: line-through;
+    margin: auto 0.5em;
+  }
+
+  .line-after::after{
+    content:'\00a0\00a0\00a0\00a0';
+    text-decoration: line-through;
+    margin: auto 0.5em;
+  }
+
+  .header-fumo-arrosto{
+    font-size:75px
+  }
