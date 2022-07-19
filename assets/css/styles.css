@@ -12,7 +12,7 @@
 .logoFumo {
     text-transform: lowercase; }
 .logoFumo a {
-    background: url("../imgs/LOGO-nero.png") no-repeat 0 5px;
+    background: url("https://raw.githubusercontent.com/VanTheNoble/fumo_sito/master/assets/imgs/LOGO-nero.png") no-repeat 0 5px;
     background-size: 10rem;
     
     float: left;
@@ -43,7 +43,7 @@ nav[role='navigation'] li a {
 }
 
 .ramoLeft{
-    background: url("../imgs/ramo.png") no-repeat 0 0;
+    background: url("https://raw.githubusercontent.com/VanTheNoble/fumo_sito/master/assets/imgs/ramo.png") no-repeat 0 0;
     background-size: contain;
     -moz-transform: scaleX(-1);
     -o-transform: scaleX(-1);
@@ -61,7 +61,7 @@ nav[role='navigation'] li a {
 }
 
 .ramoRight{
-    background: url("../imgs/ramo.png") no-repeat 0 0;
+    background: url("https://raw.githubusercontent.com/VanTheNoble/fumo_sito/master/assets/imgs/ramo.png") no-repeat 0 0;
     background-size: contain;
     position:absolute;
     bottom: 0px;
