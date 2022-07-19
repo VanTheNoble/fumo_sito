@@ -155,3 +155,8 @@ nav[role='navigation'] li a {
   .header-fumo-arrosto{
     font-size:75px
   }
+
+  a {
+    color: black !important; /* blue colors for links too */
+    text-decoration: none !important; /* no underline */
+  }
